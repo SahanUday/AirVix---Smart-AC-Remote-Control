@@ -1,12 +1,12 @@
-# 📱 AirVix - Smart AC Remote Control 
+# 📱 Smart AC Remote Control – AirVix
 
-This project is a **smart air conditioning remote control app** built using **Flutter** and **Firebase**, developed by [Your Name/Team Name]. It enables users to control their AC unit remotely with features like geofencing, AI-driven temperature adjustments, and scheduling for enhanced comfort and energy efficiency.
+This project is a **smart air conditioning remote control app** built using **Flutter** and **Firebase**, developed by [Your Name/Team Name]. Designed for Android, it enables users to control their AC unit remotely with features like geofencing, AI-driven temperature adjustments, and scheduling for enhanced comfort and energy efficiency.
 
 ---
 
 ## 📌 Overview
 
-The **Smart AC Remote Control** is a mobile application that:
+The **Smart AC Remote Control** is an Android mobile application that:
 
 * Allows users to **control their AC** (power, temperature, mode) remotely.
 * Integrates **geofencing** to automatically turn the AC on/off based on the user's location.
@@ -15,7 +15,7 @@ The **Smart AC Remote Control** is a mobile application that:
 * Displays real-time **sensor data** (temperature, humidity, occupancy, weather).
 * Integrates with **Firebase Realtime Database** for seamless data management.
 
-It’s an intuitive solution for smart home automation, ideal for users seeking convenience and energy savings.
+It’s an intuitive solution for smart home automation, ideal for Android users seeking convenience and energy savings.
 
 ---
 
@@ -34,14 +34,13 @@ It’s an intuitive solution for smart home automation, ideal for users seeking 
 
 ## 🔧 Technologies & Tools Used
 
-* **Flutter** – Cross-platform mobile app development
+* **Flutter** – Cross-platform mobile app framework (Android-only build)
 * **Firebase Realtime Database** – Real-time data storage and synchronization
 * **Firebase UI Auth** – Secure email-based authentication
 * **Geolocator** – Location-based geofencing functionality
 * **Fluttertoast** – User notifications and feedback
 * **Dart** – Programming language for Flutter
 * **Android Studio** – Recommended IDE for development
-* **intl** – Date and time formatting
 
 > ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?logo=flutter&logoColor=white)
 > ![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?logo=firebase&logoColor=black)
@@ -68,18 +67,16 @@ It’s an intuitive solution for smart home automation, ideal for users seeking 
 * Flutter 3.0.0+
 * Dart (compatible with Flutter version)
 * Firebase Account ([Firebase Console](https://console.firebase.google.com/))
-* Android Studio or VS Code
+* Android Studio
 * Git
-* Android/iOS device or emulator
+* Android device or emulator
 
 ---
 
 ### 🔐 Set Up Firebase
 
 1. Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
-2. Add an Android/iOS app and download the configuration file:
-   - Android: `google-services.json` to `android/app/`
-   - iOS: `GoogleService-Info.plist` to `ios/Runner/`
+2. Add an Android app and download the `google-services.json` file to `android/app/`.
 3. Update the Firebase Realtime Database URL in `geofencing_page.dart`:
    ```dart
    final dbRef = FirebaseDatabase.instanceFor(
@@ -113,7 +110,7 @@ It’s an intuitive solution for smart home automation, ideal for users seeking 
      ```
 
 4. **Run the App**:
-   - Connect a device or start an emulator.
+   - Connect an Android device or start an emulator.
    - Run:
      ```bash
      flutter run
@@ -127,7 +124,7 @@ Download the latest APK for Android devices:
 
 📁 [Download APK](apk/app-release.apk)
 
-> **Note**: Ensure your device allows installation from unknown sources. For iOS, build the app using Xcode.
+> **Note**: Ensure your Android device allows installation from unknown sources.
 
 ---
 
@@ -147,7 +144,7 @@ Here’s a quick video demo of how the Smart AC Remote Control works:
 We welcome contributions to enhance features like:
 * 📊 Energy usage analytics
 * 🧠 Advanced AI algorithms for temperature optimization
-* ⏱️ Multi-device support
+* ⏱️ Support for multiple AC units
 * 🔐 Enhanced security features
 
 To contribute:
@@ -161,7 +158,7 @@ To contribute:
 
 ## 🛠 Built With
 
-* 🖥️ Flutter – Cross-platform mobile app framework
+* 🖥️ Flutter – Mobile app framework for Android
 * 🔥 Firebase Realtime Database – Real-time data management
 * 🔒 Firebase UI Auth – Secure authentication
 * 📍 Geolocator – Location-based services
