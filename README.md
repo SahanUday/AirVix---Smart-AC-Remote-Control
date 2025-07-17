@@ -125,7 +125,7 @@ It’s an intuitive solution for smart home automation, ideal for users seeking 
 
 Download the latest APK for Android devices:
 
-📁 [Download APK](https://github.com/your-username/smart-ac-remote-control/releases/latest)
+📁 [Download APK](apk/app-release.apk)
 
 > **Note**: Ensure your device allows installation from unknown sources. For iOS, build the app using Xcode.
 
