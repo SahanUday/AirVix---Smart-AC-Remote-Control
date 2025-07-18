@@ -1,6 +1,6 @@
-# 📱 Smart AC Remote Control – AirVix
+# 📱 Smart AC Remote Control – Airvix
 
-This project is a **smart air conditioning remote control app** built using **Flutter** and **Firebase**, developed by [Your Name/Team Name]. Designed for Android, it enables users to control their AC unit remotely with features like geofencing, AI-driven temperature adjustments, and scheduling for enhanced comfort and energy efficiency.
+This project is a **smart air conditioning remote control app** built using **Flutter** and **Firebase**. Designed for Android, it enables users to control their AC unit remotely with features like geofencing, AI-driven temperature adjustments, and scheduling for enhanced comfort and energy efficiency.
 
 ---
 
@@ -60,54 +60,52 @@ It’s an intuitive solution for smart home automation, ideal for Android users 
 
 ---
 
-## 🧰 Setup & Run Guide (Android Studio)
+## 🧰 Setup & Run Guide
 
 ### ✅ Requirements
+For detailed project requirements, refer to the [REQUIREMENTS.md](REQUIREMENTS.md) file.
 
-* Flutter 3.0.0+
-* Dart (compatible with Flutter version)
-* Firebase Account ([Firebase Console](https://console.firebase.google.com/))
-* Android Studio
-* Git
-* Android device or emulator
-
----
+Including:
+- **System Requirements**: Flutter SDK, development tools (Android Studio, Git).
+- **Flutter Dependencies**: All packages from `pubspec.yaml` (e.g., `firebase_core`, `geolocator`).
+- **Firebase Requirements**: Services and configuration needed for Firebase integration.
+- **Build Tools**: Gradle, Android SDK requirements.
+- **Permissions**: Android permissions required by the app.
+- **Installation Guide**: Step-by-step commands for setup.
+- **Performance Specs**: Minimum device requirements.
+- **Security Notes**: Guidelines for handling API keys and signing.
 
 ### 🔐 Set Up Firebase
+For detailed Firebase setup instructions, refer to the [FIREBASE_SETUP.md](FIREBASE_SETUP.md) file.
 
-1. Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
-2. Add an Android app and download the `google-services.json` file to `android/app/`.
-3. Update the Firebase Realtime Database URL in `geofencing_page.dart`:
-   ```dart
-   final dbRef = FirebaseDatabase.instanceFor(
-     app: Firebase.app(),
-     databaseURL: 'https://your-project-id.firebaseio.com/',
-   ).ref();
-   ```
-4. Enable Firebase Realtime Database and configure rules.
+Including:
+- Steps to create a Firebase project and download configuration files.
+- How to use the FlutterFire CLI to generate `firebase_options.dart`.
+- Guidance on updating database URLs and enabling Firebase services.
+- Troubleshooting tips and links to official Firebase documentation.
 
----
+### 📄 Template Files
+- **[firebase_options.dart.template](lib/firebase_options.dart.template)**: A safe template with placeholders for Firebase options (e.g., API keys, project ID) that contributors must replace with their own values.
+- **[google-services.json.template](android/app/google-services.json.template)**: A template for the Android Firebase configuration file, with placeholders for project-specific data.
+
+To use these templates, copy them to their respective locations and update with your Firebase credentials:
+```bash
+cp lib/firebase_options.dart.template lib/firebase_options.dart
+cp android/app/google-services.json.template android/app/google-services.json
+```
 
 ### 🚀 Run the Project Locally
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/smart-ac-remote-control.git
-   cd smart-ac-remote-control
+   git clone https://github.com/SahanUday/Airvix-App.git
+   cd Airvix-App
    ```
 
 2. **Install Dependencies**:
    ```bash
    flutter pub get
    ```
-
-3. **Add Assets**:
-   - Place `icon1.png` in `assets/images/`.
-   - Update `pubspec.yaml`:
-     ```yaml
-     assets:
-       - assets/images/icon1.png
-     ```
 
 4. **Run the App**:
    - Connect an Android device or start an emulator.
@@ -130,7 +128,7 @@ Download the latest APK for Android devices:
 
 ## 🧪 Demo
 
-Here’s a quick video demo of how the Smart AC Remote Control works:
+Here’s a quick video demo of how the Smart AC Remote Control works, captured on **Friday, July 18, 2025, 09:38 PM +0530**:
 
 🎥 **Demo Video**:  
 👉 [Click to watch the demo video](demo/demo_vid.mp4)
