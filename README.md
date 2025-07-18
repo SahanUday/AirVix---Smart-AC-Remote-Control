@@ -133,7 +133,7 @@ Download the latest APK for Android devices:
 Here’s a quick video demo of how the Smart AC Remote Control works:
 
 🎥 **Demo Video**:  
-📁 `demo/demo_vid.mp4`
+👉 [Click to watch the demo video](demo/demo_vid.mp4)
 
 > 🏠 Control your AC effortlessly with smart automation and real-time insights!
 
