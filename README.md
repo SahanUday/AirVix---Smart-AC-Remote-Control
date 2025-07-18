@@ -135,6 +135,66 @@ Here’s a quick video demo of how the Smart AC Remote Control works:
 🎥 **Demo Video**:  
 👉 [Click to watch the demo video](demo/demo_vid.mp4)
 
+📸 **Login Page**
+<table>
+  <tr>
+    <td>
+      <img width="200" height="854" src="https://raw.githubusercontent.com/SahanUday/AirVix-App_Smart-AC-Remote-Control-App/main/demo/login.png" />
+    </td>
+    <td>
+      Features a simple email-based login using Firebase UI Auth. Users enter their credentials, and upon successful login, they are redirected to the Home Page. The app logo (`icon1.png`) is displayed prominently.
+    </td>
+  </tr>
+</table>
+
+📸 **Home Page**
+<table>
+  <tr>
+    <td>
+      <img width="200" height="854" src="https://raw.githubusercontent.com/SahanUday/AirVix-App_Smart-AC-Remote-Control-App/main/demo/home.png" />
+    </td>
+    <td>
+      Displays real-time sensor data (indoor/outdoor temperature, humidity, weather, occupancy) synced from Firebase. Users can manually control the AC (power toggle, temperature adjustment with +/- buttons, and mode selection: Cool, Heat, Fan, Dry) via an intuitive interface with a circular temperature display.
+    </td>
+  </tr>
+</table>
+
+📸 **Smart Control Page**
+<table>
+  <tr>
+    <td>
+      <img width="200" height="854" src="https://raw.githubusercontent.com/SahanUday/AirVix-App_Smart-AC-Remote-Control-App/main/demo/smart_control.png" />
+    </td>
+    <td>
+      Enables AI-driven temperature adjustments based on sensor data and user input. Features toggles for Smart AC Control and Occupancy Auto-ON/OFF, along with dropdowns for feedback (e.g., too hot, comfortable) and activity type (e.g., relaxing, working) to refine AI recommendations.
+    </td>
+  </tr>
+</table>
+
+📸 **Geofencing Page**
+<table>
+  <tr>
+    <td>
+      <img width="200" height="854" src="https://raw.githubusercontent.com/SahanUday/AirVix-App_Smart-AC-Remote-Control-App/main/demo/geofencing.png" />
+    </td>
+    <td>
+      Allows users to enable geofencing to automatically control the AC based on their location. Includes options to set entry/exit actions (e.g., AC_ON, cool_24) and edit the geofence area (latitude, longitude, radius) with real-time status updates (Home/Away).
+    </td>
+  </tr>
+</table>
+
+📸 **Scheduler Page**
+<table>
+  <tr>
+    <td>
+      <img width="200" height="854" src="https://raw.githubusercontent.com/SahanUday/AirVix-App_Smart-AC-Remote-Control-App/main/demo/schedule.png" />
+    </td>
+    <td>
+      Offers scheduling functionality with a toggle to enable/disable schedules, duration selection (e.g., 30s, 1h, 4h) using choice chips, and an action dropdown (e.g., AC_OFF, cool_20) to automate AC commands based on set timers.
+    </td>
+  </tr>
+</table>
+
 > 🏠 Control your AC effortlessly with smart automation and real-time insights!
 
 ---
