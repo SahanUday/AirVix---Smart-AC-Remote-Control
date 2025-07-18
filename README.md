@@ -2,6 +2,8 @@
 
 This project is a **smart air conditioning remote control app** built using **Flutter** and **Firebase**. Designed for Android, it enables users to control their AC unit remotely with features like geofencing, AI-driven temperature adjustments, and scheduling for enhanced comfort and energy efficiency.
 
+This app is one of my contributions to our group project, the **Smart-AC-Control-System**, which encompasses a broader system for controlling AC units, including gathering indoor and outdoor sensor data, checking occupancy, predicting optimal AC set temperatures using AI models, and automating an exhaust fan system etc. For more details on the main project, visit the repository at [Smart-AC-Control-System](https://github.com/SahanUday/Smart-AC-Control-System.git).
+
 ---
 
 ## 📌 Overview
